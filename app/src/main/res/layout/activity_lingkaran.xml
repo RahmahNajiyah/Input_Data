@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lingkaran"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahmahnajiyahimtihan.inputdata.Lingkaran">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Lingkaran"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#B0BEC5"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/txtjudul3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Jari-jari"
+        android:layout_below="@id/txtjudul3"
+        android:id="@+id/editSisi3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:id="@+id/hitungLingkaran"
+        android:layout_below="@+id/editSisi3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasilLingkaran"
+        android:text="Hasil"
+        android:layout_below="@+id/hitungLingkaran"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

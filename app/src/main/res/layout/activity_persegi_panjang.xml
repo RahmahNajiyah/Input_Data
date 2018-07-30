@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_persegi_panjang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahmahnajiyahimtihan.inputdata.PersegiPanjang">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Persegi Panjang"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="#B0BEC5"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/txtjudul2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Panjang"
+        android:layout_below="@id/txtjudul2"
+        android:id="@+id/editSisi2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Lebar"
+        android:layout_below="@id/editSisi2"
+        android:id="@+id/editSisi22"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:id="@+id/hitungPersegiPanjang"
+        android:layout_below="@+id/editSisi22"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasilPersegiPanjang"
+        android:text="Hasil"
+        android:layout_below="@+id/hitungPersegiPanjang"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+
+
+

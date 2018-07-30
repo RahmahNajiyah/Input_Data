@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context="com.rahmahnajiyahimtihan.inputdata.SplashScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bangun Datar"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/ssText"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bangundatar"
+        android:layout_below="@+id/ssText"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:layout_marginTop="70dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

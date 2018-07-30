@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahmahnajiyahimtihan.inputdata.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="persegi"
+        android:id="@+id/btnpersegi"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="persegi panjang"
+        android:id="@+id/btnpersegipanjang"
+        android:layout_below="@+id/btnpersegi"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lingkaran"
+        android:id="@+id/btnlingkaran"
+        android:layout_below="@+id/btnpersegipanjang"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="segitiga"
+        android:id="@+id/btnsegitiga"
+        android:layout_below="@+id/btnlingkaran"/>
+</RelativeLayout>
